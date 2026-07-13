@@ -287,7 +287,7 @@ elif page == "Anomaly Report":
         kpi("DETECTION STATUS", "Complete")
 
     st.markdown('<div class="section-title">Weekly Sales Anomaly Detection</div>', unsafe_allow_html=True)
-    st.image("charts/5output.png", use_container_width=True)
+    st.image("Charts/5output.png", use_container_width=True)
 
     st.markdown('<div class="section-title">Detected Anomaly Dates</div>', unsafe_allow_html=True)
     st.dataframe(anomaly_dates, hide_index=True, use_container_width=True)
@@ -307,7 +307,7 @@ elif page == "Product Demand Segments":
         kpi("ANALYSIS STATUS", "Complete")
 
     st.markdown('<div class="section-title">K-Means Demand Clusters</div>', unsafe_allow_html=True)
-    st.image("charts/6output.png", use_container_width=True)
+    st.image("Charts/6output.png", use_container_width=True)
 
     st.markdown('<div class="section-title">Sub-Category Demand Segments</div>', unsafe_allow_html=True)
     st.dataframe(demand_segments, hide_index=True, use_container_width=True)
